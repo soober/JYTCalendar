@@ -1,0 +1,6 @@
+framework module Pods_JYTCalendar_Example {
+  umbrella header "Pods-JYTCalendar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		21481D1080BDCC21B56C51F9 /* Pods-JYTCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYTCalendar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JYTCalendar_Tests/Pods-JYTCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		32FAB0BB984EC84CBCEBF22A /* JYTCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JYTCalendar.podspec; path = ../JYTCalendar.podspec; sourceTree = "<group>"; };
+		32FAB0BB984EC84CBCEBF22A /* JYTCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JYTCalendar.podspec; path = ../JYTCalendar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* JYTCalendar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYTCalendar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,12 @@
 		69E8E15D7FBAFEF674F1BA36 /* Pods_JYTCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYTCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75F8ED0439E51379042D2003 /* Pods-JYTCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYTCalendar_Tests.release.xcconfig"; path = "Target Support Files/Pods-JYTCalendar_Tests/Pods-JYTCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		800137FC554D4B9563018865 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		800137FC554D4B9563018865 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		834B0A1E52BE148CE9C74D9A /* Pods_JYTCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYTCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0CC381A8AE25819D994F379 /* Pods-JYTCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYTCalendar_Example.debug.xcconfig"; path = "Target Support Files/Pods-JYTCalendar_Example/Pods-JYTCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C73D9D4F6620499DA75032F4 /* Pods-JYTCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYTCalendar_Example.release.xcconfig"; path = "Target Support Files/Pods-JYTCalendar_Example/Pods-JYTCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E155F94D5FA9882EFED4EC1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E155F94D5FA9882EFED4EC1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				21481D1080BDCC21B56C51F9 /* Pods-JYTCalendar_Tests.debug.xcconfig */,
 				75F8ED0439E51379042D2003 /* Pods-JYTCalendar_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

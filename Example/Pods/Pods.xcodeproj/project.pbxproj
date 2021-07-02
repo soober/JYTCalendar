@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21639F9D72C72E4C5D712376F004FC6A /* JYTCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B6C488A9084F1572DBBE96595C1553 /* JYTCalendar-dummy.m */; };
+		234A17B6C3C0B564724A82C879E8AE5E /* WTCalendarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52819C251AFEB9D2C8FE81EEA01A643D /* WTCalendarModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32A79EA43B67F4EA89CC57418F644DF7 /* NSDate+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A336DC829F1C13310B9797EF885D809 /* NSDate+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4B317070139EB79A706C1B1377173A /* WTCalendarManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 10596CC4B5C399CDEC9CEF9B5B24A63A /* WTCalendarManage.m */; };
+		4CC139E34D6B69170985F3083B54088F /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 136B7816875A5A0D50CDAF395026E786 /* NSDateFormatter+Category.m */; };
+		62BE4E05E9BBEDBA7BB930D574DD7637 /* NSDateFormatter+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E1AF5F1852D0B8DBA3340C0A2E471E /* NSDateFormatter+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D663B3D21B75C4231F7E5EADBCF4D45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6D672FF260B56BE6A824E133CE2712D8 /* WTCalendarManage.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EC44A6922C08748FA46A03688AF172 /* WTCalendarManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74CD5A197A1D9568D631B7193E7E4472 /* Pods-JYTCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 361A1DBC890847FC4965AF31350AB826 /* Pods-JYTCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766CB9CC94B6210938972AE4CFBC9B1B /* JYTCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C58D84D83F1118ACD1652C9550221A0 /* JYTCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768099CB572463A9068FBB623DBAA92E /* Pods-JYTCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7DAADEE1CFA576B18C19C22A5B0925 /* Pods-JYTCalendar_Example-dummy.m */; };
+		9EAA32B8125EDFD2C22130B7D9691D91 /* Pods-JYTCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF849938FCCC4AFF15319C6EBE7020DC /* Pods-JYTCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAD5A5659BF8B81DA9283B2E10425C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BEAF20E09D87FAD8D9802FF6210BCE75 /* WTCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63114858CE99D8388D964693592D68 /* WTCalendarModel.m */; };
+		C25DA9B0DA962B564642D4E8CC75639C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C59713FF23F3749C75FAB1D07A3E191B /* Pods-JYTCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6949AE75915A9BB347DAF2053458E0C2 /* Pods-JYTCalendar_Tests-dummy.m */; };
+		ED36937BE54CE410EB2383B5721D8CD1 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7868B27BA9F145609FFF6256E6D27D /* NSDate+Category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD8B323774F5E6D67E34B350548552F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05D37E79A0B33D2FB48DB793CBB51F26;
+			remoteInfo = "Pods-JYTCalendar_Example";
+		};
+		DFFF4B0498486059A28556F1E098EFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA38AB2E77D930BA80140793C246690;
+			remoteInfo = JYTCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10596CC4B5C399CDEC9CEF9B5B24A63A /* WTCalendarManage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTCalendarManage.m; path = JYTCalendar/Classes/WTCalendarManage.m; sourceTree = "<group>"; };
+		11E1AF5F1852D0B8DBA3340C0A2E471E /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+Category.h"; path = "JYTCalendar/Classes/NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		136B7816875A5A0D50CDAF395026E786 /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+Category.m"; path = "JYTCalendar/Classes/NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+		32470CAAC7E6EAF38C620A55EFA619BC /* Pods-JYTCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYTCalendar_Example.modulemap"; sourceTree = "<group>"; };
+		361A1DBC890847FC4965AF31350AB826 /* Pods-JYTCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYTCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3D37808255391A70E5B82FF858828C98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3DECD6DFD7833A1FAECE925B3E1D5ABF /* Pods_JYTCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JYTCalendar_Tests.framework; path = "Pods-JYTCalendar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4754B36565A3D7EC0089FDDD7B31D25C /* Pods-JYTCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYTCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52819C251AFEB9D2C8FE81EEA01A643D /* WTCalendarModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCalendarModel.h; path = JYTCalendar/Classes/WTCalendarModel.h; sourceTree = "<group>"; };
+		59965341FB9E24134A87B3972A1AA423 /* Pods-JYTCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYTCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E949E16B62E68A6541FA3C2C1705EB3 /* JYTCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JYTCalendar-Info.plist"; sourceTree = "<group>"; };
+		632C2F28E125D8BEDD168AA946A6BF53 /* JYTCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYTCalendar-prefix.pch"; sourceTree = "<group>"; };
+		677AE169CF0A5C126212C460480E73E9 /* Pods-JYTCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYTCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6949AE75915A9BB347DAF2053458E0C2 /* Pods-JYTCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYTCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7924DB6D6C29D6FDFD38E62E129D2F9E /* JYTCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JYTCalendar.framework; path = JYTCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BC204B9374C295B9C2BA4F04AD72DE /* Pods-JYTCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYTCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88387CE54328BD5477B86B42BF9224A2 /* JYTCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYTCalendar.release.xcconfig; sourceTree = "<group>"; };
+		8A336DC829F1C13310B9797EF885D809 /* NSDate+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Category.h"; path = "JYTCalendar/Classes/NSDate+Category.h"; sourceTree = "<group>"; };
+		8C58D84D83F1118ACD1652C9550221A0 /* JYTCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYTCalendar-umbrella.h"; sourceTree = "<group>"; };
+		964BDA526DBCBCCBC46A247BCA015025 /* Pods-JYTCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYTCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C87562B95C0AD34AC2255CF2D818AD1 /* Pods_JYTCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JYTCalendar_Example.framework; path = "Pods-JYTCalendar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D63114858CE99D8388D964693592D68 /* WTCalendarModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTCalendarModel.m; path = JYTCalendar/Classes/WTCalendarModel.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6EC44A6922C08748FA46A03688AF172 /* WTCalendarManage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTCalendarManage.h; path = JYTCalendar/Classes/WTCalendarManage.h; sourceTree = "<group>"; };
+		B8DFB84F98F9D436033EC751312C9EF3 /* JYTCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JYTCalendar.modulemap; sourceTree = "<group>"; };
+		C1EAAEEABED0D81DA195485E850EC0E7 /* Pods-JYTCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYTCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CB25F606A185F6918BBD1E90643542DC /* JYTCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JYTCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE15E5FF33904196EE63EF4CFA7023EA /* Pods-JYTCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYTCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CF849938FCCC4AFF15319C6EBE7020DC /* Pods-JYTCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYTCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
+		D270DC6FA1B90FA0D25542B8BED4E6BF /* Pods-JYTCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYTCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D494CB8A9EB1760427106ECDC12F3112 /* Pods-JYTCalendar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYTCalendar_Tests-Info.plist"; sourceTree = "<group>"; };
+		D5EF8BC0757063E377005C206E835060 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D7C7C1F2ED6EF3BC9D0395C93A16CEB5 /* Pods-JYTCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYTCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DB7DAADEE1CFA576B18C19C22A5B0925 /* Pods-JYTCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYTCalendar_Example-dummy.m"; sourceTree = "<group>"; };
+		E0D108D0B645774635017C7BA4CE6F4C /* Pods-JYTCalendar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYTCalendar_Example-Info.plist"; sourceTree = "<group>"; };
+		F5B6C488A9084F1572DBBE96595C1553 /* JYTCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYTCalendar-dummy.m"; sourceTree = "<group>"; };
+		F98BA02D70EEC3398BDF0600B8DD5631 /* Pods-JYTCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYTCalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		FA7868B27BA9F145609FFF6256E6D27D /* NSDate+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Category.m"; path = "JYTCalendar/Classes/NSDate+Category.m"; sourceTree = "<group>"; };
+		FCEC74B674A943871C0610D82490BF3C /* JYTCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYTCalendar.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		158EADAF85EF584A2FF7CF40A48D4B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD5A5659BF8B81DA9283B2E10425C3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78763B1DCC24A15F8DCA1F313D95997B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D663B3D21B75C4231F7E5EADBCF4D45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D561B20F66285C64031187279916AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25DA9B0DA962B564642D4E8CC75639C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9B49B6C4C5A42AF2217AEC3974E2BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CB25F606A185F6918BBD1E90643542DC /* JYTCalendar.podspec */,
+				3D37808255391A70E5B82FF858828C98 /* LICENSE */,
+				D5EF8BC0757063E377005C206E835060 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3365044BE853953E1588FDED32A0AF90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C5F1BCE1CC080C8ABBF7B3A940EE9FD /* Pods-JYTCalendar_Example */,
+				95C4D18A538D25003881A6F0DEEA54B5 /* Pods-JYTCalendar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		518F13B0A9EECB605D89B1F6B2E2D25D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFB84F98F9D436033EC751312C9EF3 /* JYTCalendar.modulemap */,
+				F5B6C488A9084F1572DBBE96595C1553 /* JYTCalendar-dummy.m */,
+				5E949E16B62E68A6541FA3C2C1705EB3 /* JYTCalendar-Info.plist */,
+				632C2F28E125D8BEDD168AA946A6BF53 /* JYTCalendar-prefix.pch */,
+				8C58D84D83F1118ACD1652C9550221A0 /* JYTCalendar-umbrella.h */,
+				FCEC74B674A943871C0610D82490BF3C /* JYTCalendar.debug.xcconfig */,
+				88387CE54328BD5477B86B42BF9224A2 /* JYTCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JYTCalendar";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		684AB67B4C7E143B3AB5180D04445C35 /* JYTCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				8A336DC829F1C13310B9797EF885D809 /* NSDate+Category.h */,
+				FA7868B27BA9F145609FFF6256E6D27D /* NSDate+Category.m */,
+				11E1AF5F1852D0B8DBA3340C0A2E471E /* NSDateFormatter+Category.h */,
+				136B7816875A5A0D50CDAF395026E786 /* NSDateFormatter+Category.m */,
+				B6EC44A6922C08748FA46A03688AF172 /* WTCalendarManage.h */,
+				10596CC4B5C399CDEC9CEF9B5B24A63A /* WTCalendarManage.m */,
+				52819C251AFEB9D2C8FE81EEA01A643D /* WTCalendarModel.h */,
+				9D63114858CE99D8388D964693592D68 /* WTCalendarModel.m */,
+				1F9B49B6C4C5A42AF2217AEC3974E2BC /* Pod */,
+				518F13B0A9EECB605D89B1F6B2E2D25D /* Support Files */,
+			);
+			name = JYTCalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8C5F1BCE1CC080C8ABBF7B3A940EE9FD /* Pods-JYTCalendar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				32470CAAC7E6EAF38C620A55EFA619BC /* Pods-JYTCalendar_Example.modulemap */,
+				4754B36565A3D7EC0089FDDD7B31D25C /* Pods-JYTCalendar_Example-acknowledgements.markdown */,
+				964BDA526DBCBCCBC46A247BCA015025 /* Pods-JYTCalendar_Example-acknowledgements.plist */,
+				DB7DAADEE1CFA576B18C19C22A5B0925 /* Pods-JYTCalendar_Example-dummy.m */,
+				D7C7C1F2ED6EF3BC9D0395C93A16CEB5 /* Pods-JYTCalendar_Example-frameworks.sh */,
+				E0D108D0B645774635017C7BA4CE6F4C /* Pods-JYTCalendar_Example-Info.plist */,
+				CF849938FCCC4AFF15319C6EBE7020DC /* Pods-JYTCalendar_Example-umbrella.h */,
+				CE15E5FF33904196EE63EF4CFA7023EA /* Pods-JYTCalendar_Example.debug.xcconfig */,
+				C1EAAEEABED0D81DA195485E850EC0E7 /* Pods-JYTCalendar_Example.release.xcconfig */,
+			);
+			name = "Pods-JYTCalendar_Example";
+			path = "Target Support Files/Pods-JYTCalendar_Example";
+			sourceTree = "<group>";
+		};
+		9199292976C0BC19B6644CCA4E7E95FB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				684AB67B4C7E143B3AB5180D04445C35 /* JYTCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		95C4D18A538D25003881A6F0DEEA54B5 /* Pods-JYTCalendar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F98BA02D70EEC3398BDF0600B8DD5631 /* Pods-JYTCalendar_Tests.modulemap */,
+				87BC204B9374C295B9C2BA4F04AD72DE /* Pods-JYTCalendar_Tests-acknowledgements.markdown */,
+				677AE169CF0A5C126212C460480E73E9 /* Pods-JYTCalendar_Tests-acknowledgements.plist */,
+				6949AE75915A9BB347DAF2053458E0C2 /* Pods-JYTCalendar_Tests-dummy.m */,
+				D494CB8A9EB1760427106ECDC12F3112 /* Pods-JYTCalendar_Tests-Info.plist */,
+				361A1DBC890847FC4965AF31350AB826 /* Pods-JYTCalendar_Tests-umbrella.h */,
+				59965341FB9E24134A87B3972A1AA423 /* Pods-JYTCalendar_Tests.debug.xcconfig */,
+				D270DC6FA1B90FA0D25542B8BED4E6BF /* Pods-JYTCalendar_Tests.release.xcconfig */,
+			);
+			name = "Pods-JYTCalendar_Tests";
+			path = "Target Support Files/Pods-JYTCalendar_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9199292976C0BC19B6644CCA4E7E95FB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E47B8816057C664B0381E3BF3A2A7BAC /* Products */,
+				3365044BE853953E1588FDED32A0AF90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E47B8816057C664B0381E3BF3A2A7BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7924DB6D6C29D6FDFD38E62E129D2F9E /* JYTCalendar.framework */,
+				9C87562B95C0AD34AC2255CF2D818AD1 /* Pods_JYTCalendar_Example.framework */,
+				3DECD6DFD7833A1FAECE925B3E1D5ABF /* Pods_JYTCalendar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D921C5A5D1603309A63BBF1A8529E2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766CB9CC94B6210938972AE4CFBC9B1B /* JYTCalendar-umbrella.h in Headers */,
+				32A79EA43B67F4EA89CC57418F644DF7 /* NSDate+Category.h in Headers */,
+				62BE4E05E9BBEDBA7BB930D574DD7637 /* NSDateFormatter+Category.h in Headers */,
+				6D672FF260B56BE6A824E133CE2712D8 /* WTCalendarManage.h in Headers */,
+				234A17B6C3C0B564724A82C879E8AE5E /* WTCalendarModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F3A85C5778FEFC349AE0DCA3C9AF2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CD5A197A1D9568D631B7193E7E4472 /* Pods-JYTCalendar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC3671900E2DC8692261B58AE3E20DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAA32B8125EDFD2C22130B7D9691D91 /* Pods-JYTCalendar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05D37E79A0B33D2FB48DB793CBB51F26 /* Pods-JYTCalendar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDD300AC5D98ABE3322E7E3873C1F0F /* Build configuration list for PBXNativeTarget "Pods-JYTCalendar_Example" */;
+			buildPhases = (
+				9DC3671900E2DC8692261B58AE3E20DC /* Headers */,
+				B43C0044ED98228CD52D764D8A34A998 /* Sources */,
+				158EADAF85EF584A2FF7CF40A48D4B02 /* Frameworks */,
+				8AF65F94677E234897AE6FBDEEEF617B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8335708DE0CD4047428A70F70EBCE2B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-JYTCalendar_Example";
+			productName = "Pods-JYTCalendar_Example";
+			productReference = 9C87562B95C0AD34AC2255CF2D818AD1 /* Pods_JYTCalendar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BA38AB2E77D930BA80140793C246690 /* JYTCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D43FB192E546AEF30F5015E0BCE6BBA /* Build configuration list for PBXNativeTarget "JYTCalendar" */;
+			buildPhases = (
+				3D921C5A5D1603309A63BBF1A8529E2C /* Headers */,
+				C32419529E4D5809DD00205285D9B430 /* Sources */,
+				F9D561B20F66285C64031187279916AF /* Frameworks */,
+				64D5CC62A4B6ACA5D66D655C46FE0C3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYTCalendar;
+			productName = JYTCalendar;
+			productReference = 7924DB6D6C29D6FDFD38E62E129D2F9E /* JYTCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2D58A24A0419287256DB2C1D6E71A52 /* Pods-JYTCalendar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BEB55FE62FCE8E663AF8074D0C9FE2 /* Build configuration list for PBXNativeTarget "Pods-JYTCalendar_Tests" */;
+			buildPhases = (
+				82F3A85C5778FEFC349AE0DCA3C9AF2C /* Headers */,
+				E760D7BE862C9714EEFC4B99D2C53286 /* Sources */,
+				78763B1DCC24A15F8DCA1F313D95997B /* Frameworks */,
+				3D7E7E78325127C6DFDC1970639DA297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0AF130BA5AC976621BC35BFC861493 /* PBXTargetDependency */,
+			);
+			name = "Pods-JYTCalendar_Tests";
+			productName = "Pods-JYTCalendar_Tests";
+			productReference = 3DECD6DFD7833A1FAECE925B3E1D5ABF /* Pods_JYTCalendar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E47B8816057C664B0381E3BF3A2A7BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BA38AB2E77D930BA80140793C246690 /* JYTCalendar */,
+				05D37E79A0B33D2FB48DB793CBB51F26 /* Pods-JYTCalendar_Example */,
+				C2D58A24A0419287256DB2C1D6E71A52 /* Pods-JYTCalendar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D7E7E78325127C6DFDC1970639DA297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D5CC62A4B6ACA5D66D655C46FE0C3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF65F94677E234897AE6FBDEEEF617B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B43C0044ED98228CD52D764D8A34A998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768099CB572463A9068FBB623DBAA92E /* Pods-JYTCalendar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32419529E4D5809DD00205285D9B430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21639F9D72C72E4C5D712376F004FC6A /* JYTCalendar-dummy.m in Sources */,
+				ED36937BE54CE410EB2383B5721D8CD1 /* NSDate+Category.m in Sources */,
+				4CC139E34D6B69170985F3083B54088F /* NSDateFormatter+Category.m in Sources */,
+				4C4B317070139EB79A706C1B1377173A /* WTCalendarManage.m in Sources */,
+				BEAF20E09D87FAD8D9802FF6210BCE75 /* WTCalendarModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E760D7BE862C9714EEFC4B99D2C53286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59713FF23F3749C75FAB1D07A3E191B /* Pods-JYTCalendar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C0AF130BA5AC976621BC35BFC861493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JYTCalendar_Example";
+			target = 05D37E79A0B33D2FB48DB793CBB51F26 /* Pods-JYTCalendar_Example */;
+			targetProxy = DAD8B323774F5E6D67E34B350548552F /* PBXContainerItemProxy */;
+		};
+		8335708DE0CD4047428A70F70EBCE2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JYTCalendar;
+			target = 7BA38AB2E77D930BA80140793C246690 /* JYTCalendar */;
+			targetProxy = DFFF4B0498486059A28556F1E098EFFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16C77A18B4F06B83F5CFB405CB6722F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EAAEEABED0D81DA195485E850EC0E7 /* Pods-JYTCalendar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JYTCalendar_Example/Pods-JYTCalendar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYTCalendar_Example/Pods-JYTCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A2148E2B372A1159B0C6A61A880A741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D270DC6FA1B90FA0D25542B8BED4E6BF /* Pods-JYTCalendar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JYTCalendar_Tests/Pods-JYTCalendar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYTCalendar_Tests/Pods-JYTCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		281D43845CBDC19594A5EE5AF94A8F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59965341FB9E24134A87B3972A1AA423 /* Pods-JYTCalendar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JYTCalendar_Tests/Pods-JYTCalendar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYTCalendar_Tests/Pods-JYTCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82DD86BB6213A867C87083C677813A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE15E5FF33904196EE63EF4CFA7023EA /* Pods-JYTCalendar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JYTCalendar_Example/Pods-JYTCalendar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYTCalendar_Example/Pods-JYTCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0C4977766C2D54CD8B9B031D035E66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88387CE54328BD5477B86B42BF9224A2 /* JYTCalendar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JYTCalendar/JYTCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JYTCalendar/JYTCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JYTCalendar/JYTCalendar.modulemap";
+				PRODUCT_MODULE_NAME = JYTCalendar;
+				PRODUCT_NAME = JYTCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8B65D79034D360E200BC6A295531BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCEC74B674A943871C0610D82490BF3C /* JYTCalendar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JYTCalendar/JYTCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JYTCalendar/JYTCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JYTCalendar/JYTCalendar.modulemap";
+				PRODUCT_MODULE_NAME = JYTCalendar;
+				PRODUCT_NAME = JYTCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D43FB192E546AEF30F5015E0BCE6BBA /* Build configuration list for PBXNativeTarget "JYTCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B65D79034D360E200BC6A295531BEE /* Debug */,
+				B0C4977766C2D54CD8B9B031D035E66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BEB55FE62FCE8E663AF8074D0C9FE2 /* Build configuration list for PBXNativeTarget "Pods-JYTCalendar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281D43845CBDC19594A5EE5AF94A8F96 /* Debug */,
+				1A2148E2B372A1159B0C6A61A880A741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDD300AC5D98ABE3322E7E3873C1F0F /* Build configuration list for PBXNativeTarget "Pods-JYTCalendar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD86BB6213A867C87083C677813A4A /* Debug */,
+				16C77A18B4F06B83F5CFB405CB6722F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

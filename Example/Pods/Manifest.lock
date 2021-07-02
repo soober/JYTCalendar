@@ -1,0 +1,16 @@
+PODS:
+  - JYTCalendar (0.0.1)
+
+DEPENDENCIES:
+  - JYTCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  JYTCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JYTCalendar: cd02d341a95974a9b3b0f78028f6e9b2c1e40d4d
+
+PODFILE CHECKSUM: 72f02263a147d8c9ffef7e0417162f85f1b3ddda
+
+COCOAPODS: 1.10.1
