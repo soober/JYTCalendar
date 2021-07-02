@@ -6,26 +6,26 @@
 //  Copyright © 2020 able-elec. All rights reserved.
 //
 
-#import "WTCalendarManage.h"
-#import "NSDate+Category.h"
+#import "WTCCalendar.h"
+#import "WTCCalendarModel.h"
 
-@interface WTCalendarManage ()
+@interface WTCCalendar ()
 
 @property (nonatomic,strong) NSDateFormatter *calendarFormatter;
 @property (nonatomic,strong) NSCalendar *curCalendar;
 
 @end
 
-static WTCalendarManage *_calendarManage;
+static WTCCalendar *_calendarManager;
 
-@implementation WTCalendarManage
+@implementation WTCCalendar
 
-+ (instancetype)sharedManage {
++ (instancetype)sharedManager {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _calendarManage = [[WTCalendarManage alloc]init];
+        _calendarManager = [[WTCCalendar alloc] init];
     });
-    return _calendarManage;
+    return _calendarManager;
 }
 
 - (NSDateFormatter *)calendarFormatter {
@@ -40,7 +40,7 @@ static WTCalendarManage *_calendarManage;
 - (NSCalendar *)curCalendar {
     if (!_curCalendar) {
         _curCalendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian];
-        _curCalendar.firstWeekday = 2;//设置周一为一周的第一天显示
+        _curCalendar.firstWeekday = 2;//设置周一为第一天
     }
     return _curCalendar;
 }
@@ -194,7 +194,7 @@ static WTCalendarManage *_calendarManage;
     return nil;
 }
 
-- (NSArray <WTCalendarModel *>*)getDayOfWeekByDate:(NSDate *)date {
+- (NSArray <WTCCalendarModel *>*)getDayOfWeekByDate:(NSDate *)date {
     if (date) {
         NSDate *mondayDate = [self getMondayOfWeekByDate:date];
         NSCalendarUnit dayInfoUnits  = NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay|NSCalendarUnitHour|NSCalendarUnitMinute|NSCalendarUnitSecond|NSCalendarUnitWeekday;
@@ -202,7 +202,7 @@ static WTCalendarManage *_calendarManage;
         NSDateComponents *mondayComponents = [self.curCalendar components:dayInfoUnits fromDate:mondayDate];
         NSMutableArray *dateArr = [NSMutableArray array];
         for (int i = 0; i<7; i++) {
-            WTCalendarModel *model = [[WTCalendarModel alloc]init];
+            WTCCalendarModel *model = [[WTCCalendarModel alloc]init];
             NSDate *dayD = [self.curCalendar dateFromComponents:mondayComponents];
             model.date = [self.calendarFormatter stringFromDate:dayD];
             NSDateComponents *cDate = [self currentComByDate:dayD];
@@ -213,11 +213,11 @@ static WTCalendarManage *_calendarManage;
             model.weekday = cDate.weekday;
             NSComparisonResult result = [self compareDate:dayD anotherDate:date];
             if (result == -1) {
-                model.currentDay = WTPastDay;
+                model.currentDay = WTCPastDay;
             } else if (result == 0) {
-                model.currentDay = WTToday;
+                model.currentDay = WTCToday;
             } else if (result == 1) {
-                model.currentDay = WTFutureDay;
+                model.currentDay = WTCFutureDay;
             }
             [dateArr addObject:model];
             mondayComponents.day++;
@@ -227,7 +227,7 @@ static WTCalendarManage *_calendarManage;
     return nil;
 }
 
-- (NSArray <WTCalendarModel *>*)getDayOfMonthByDate:(NSDate *)date {
+- (NSArray <WTCCalendarModel *>*)getDayOfMonthByDate:(NSDate *)date {
     if (date) {
         NSDate *mondayDate = [self getDayFirstOfMonthByDate:date];
         NSCalendarUnit dayInfoUnits  = NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay|NSCalendarUnitHour|NSCalendarUnitMinute|NSCalendarUnitSecond|NSCalendarUnitWeekday;
@@ -236,7 +236,7 @@ static WTCalendarManage *_calendarManage;
         NSInteger dayCount = [self getCountOfMonthByDate:date];
         for (int i = 0; i<dayCount; i++) {
 //            NSLog(@"---cur comps :%@",mondayComponents);
-            WTCalendarModel *model = [[WTCalendarModel alloc]init];
+            WTCCalendarModel *model = [[WTCCalendarModel alloc]init];
             NSDate *dayD = [self.curCalendar dateFromComponents:mondayComponents];
             model.date = [self.calendarFormatter stringFromDate:dayD];
             model.year = mondayComponents.year;
@@ -245,11 +245,11 @@ static WTCalendarManage *_calendarManage;
             model.weekday = [self currentComByDate:dayD].weekday;
             NSComparisonResult result = [self compareDate:dayD anotherDate:[NSDate date]];
             if (result == -1) {
-                model.currentDay = WTPastDay;
+                model.currentDay = WTCPastDay;
             } else if (result == 0) {
-                model.currentDay = WTToday;
+                model.currentDay = WTCToday;
             } else if (result == 1) {
-                model.currentDay = WTFutureDay;
+                model.currentDay = WTCFutureDay;
             }
             [dateArr addObject:model];
             mondayComponents.day++;

@@ -10,10 +10,8 @@
 #endif
 #endif
 
-#import "NSDate+Category.h"
-#import "NSDateFormatter+Category.h"
-#import "WTCalendarManage.h"
-#import "WTCalendarModel.h"
+#import "WTCCalendar.h"
+#import "WTCCalendarModel.h"
 
 FOUNDATION_EXPORT double JYTCalendarVersionNumber;
 FOUNDATION_EXPORT const unsigned char JYTCalendarVersionString[];
