@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JYTCalendar_Example' do
+  pod 'JYTCalendar', :path => '../'
+
+  target 'JYTCalendar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
